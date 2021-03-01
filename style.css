@@ -16,13 +16,12 @@ h1{
     text-shadow: 0 3px 10px rgba(0, 0, 0);
 } 
 
-h2
-{
+h2{
     color: rgb(112, 110, 110);
     font-weight: normal;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 h3{
@@ -30,17 +29,25 @@ h3{
     font-weight: normal;
     font-style: italic;
     font-size: 17px;
-
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 20px;
 }
-a {
+
+p{
+    margin: 0;
+}
+
+a{
     color: rgb(163, 139, 71);
     font-weight: normal;
 }
 
 header{
-    background: rgb(214, 99, 22);
+    background-image: url(obrazky/E1a.jpg);
+    padding: 50px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 footer{
@@ -52,12 +59,15 @@ footer{
 
 section{
     background: rgb(29, 28, 27);
-    padding: 10px 2%;
+    padding: 10px 2% 40px 2%;
     clear:left;
-
 }   
 
-.foto-eva {
+.vzdelani_konicky{
+    background-color: rgb(43, 41, 41);
+}
+
+.foto-eva{
     width: 300px;
     border: 6px solid white;
     border-radius: 50%;
@@ -65,25 +75,27 @@ section{
     margin: 0 50px 50px 0;
 }
 
-.Ekresba {
+.Ekresba{
     width: 50%;
 }
 
-
-div {
+div{
     padding: 50px 15%;
 }
 
-.hlavicka {
-    background-image: url(obrazky/E1a.jpg);
-    padding: 50px 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-   background-size: cover;
-}
-.zvonek {
+.zvonek{
     width: 60px;
     margin-left: 40px;
     padding-right: 0;
     float: unset;
+}
+
+ul{
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+ol{
+    padding-left: 15px;
+    margin-bottom: 0;
 }
